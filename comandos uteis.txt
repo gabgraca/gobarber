@@ -1,0 +1,8 @@
+Para matar as tasks no windows quando da erro de serviço lendo a mesma porta
+taskkill /F /IM node.exe
+
+Criar migration
+yarn sequelize migration:create --name=create-files
+
+Executar migrations
+yarn sequelize db:migrate
